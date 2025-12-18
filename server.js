@@ -15,3 +15,4 @@ app.get("/api/auth/login", (req, res)=>{
 app.get("/api/auth/logout", (req, res)=>{
     res.send("Logout endpoint");    
 })
+
